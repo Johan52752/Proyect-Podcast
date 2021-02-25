@@ -21,6 +21,8 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -404,7 +406,8 @@ li:hover {
 }
 
 .topicos h1 {
-    width: 90%;
+    width: 100%;
+    padding-left: 10%;
 }
 
 .topicos .icon {
